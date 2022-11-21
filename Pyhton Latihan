@@ -1,0 +1,24 @@
+kota = ['Siberia','Kuala Lumpur','Tokyo','Los Angeles','Amsterdam']
+
+print(kota[2])
+print(kota[1:4])
+print(kota[4])
+
+
+kota[3] = 'Beijing'
+
+
+kota[3:4] = 'Pnom Penh','Madrid'
+
+kota1 = [kota[0],kota[1]]
+print(kota1)
+
+kota1.append('London')
+print(kota1)
+
+kota1.extend(['Hiroshima','Nagasaki','Roma'])
+print (kota1)
+
+kota3 = kota1 + kota
+
+print(kota3)
